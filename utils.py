@@ -68,9 +68,9 @@ def search(lst, target):
         mid = (high + low) // 2
         if (lst[mid] == target):
             found = True
-        elif (lst[mid] > target):
+        else (lst[mid] > target):
             high = mid - 1
-        elif (lst[mid] < target):
+        else (lst[mid] < target):
             low = mid + 1
     return found
 
